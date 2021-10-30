@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE9C0CF3272D1F97009E3FD2 /* JoylaUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C0CF2272D1F97009E3FD2 /* JoylaUIApp.swift */; };
+		CE9C0CF5272D1F97009E3FD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C0CF4272D1F97009E3FD2 /* ContentView.swift */; };
+		CE9C0CF7272D1F99009E3FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9C0CF6272D1F99009E3FD2 /* Assets.xcassets */; };
+		CE9C0CFA272D1F99009E3FD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9C0CF9272D1F99009E3FD2 /* Preview Assets.xcassets */; };
+		CE9C0D04272D1F9A009E3FD2 /* JoylaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C0D03272D1F9A009E3FD2 /* JoylaUITests.swift */; };
+		CE9C0D0E272D1F9A009E3FD2 /* JoylaUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C0D0D272D1F9A009E3FD2 /* JoylaUIUITests.swift */; };
+		CE9C0D10272D1F9A009E3FD2 /* JoylaUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C0D0F272D1F9A009E3FD2 /* JoylaUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE9C0D00272D1F9A009E3FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE9C0CE7272D1F97009E3FD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9C0CEE272D1F97009E3FD2;
+			remoteInfo = JoylaUI;
+		};
+		CE9C0D0A272D1F9A009E3FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE9C0CE7272D1F97009E3FD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9C0CEE272D1F97009E3FD2;
+			remoteInfo = JoylaUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE9C0CEF272D1F97009E3FD2 /* JoylaUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoylaUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9C0CF2272D1F97009E3FD2 /* JoylaUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoylaUIApp.swift; sourceTree = "<group>"; };
+		CE9C0CF4272D1F97009E3FD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE9C0CF6272D1F99009E3FD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE9C0CF9272D1F99009E3FD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE9C0CFF272D1F9A009E3FD2 /* JoylaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoylaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9C0D03272D1F9A009E3FD2 /* JoylaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoylaUITests.swift; sourceTree = "<group>"; };
+		CE9C0D09272D1F9A009E3FD2 /* JoylaUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoylaUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9C0D0D272D1F9A009E3FD2 /* JoylaUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoylaUIUITests.swift; sourceTree = "<group>"; };
+		CE9C0D0F272D1F9A009E3FD2 /* JoylaUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoylaUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9C0CEC272D1F97009E3FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9C0CFC272D1F9A009E3FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9C0D06272D1F9A009E3FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE9C0CE6272D1F97009E3FD2 = {
+			isa = PBXGroup;
+			children = (
+				CE9C0CF1272D1F97009E3FD2 /* JoylaUI */,
+				CE9C0D02272D1F9A009E3FD2 /* JoylaUITests */,
+				CE9C0D0C272D1F9A009E3FD2 /* JoylaUIUITests */,
+				CE9C0CF0272D1F97009E3FD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9C0CF0272D1F97009E3FD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9C0CEF272D1F97009E3FD2 /* JoylaUI.app */,
+				CE9C0CFF272D1F9A009E3FD2 /* JoylaUITests.xctest */,
+				CE9C0D09272D1F9A009E3FD2 /* JoylaUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9C0CF1272D1F97009E3FD2 /* JoylaUI */ = {
+			isa = PBXGroup;
+			children = (
+				CE9C0CF2272D1F97009E3FD2 /* JoylaUIApp.swift */,
+				CE9C0CF4272D1F97009E3FD2 /* ContentView.swift */,
+				CE9C0CF6272D1F99009E3FD2 /* Assets.xcassets */,
+				CE9C0CF8272D1F99009E3FD2 /* Preview Content */,
+			);
+			path = JoylaUI;
+			sourceTree = "<group>";
+		};
+		CE9C0CF8272D1F99009E3FD2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE9C0CF9272D1F99009E3FD2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE9C0D02272D1F9A009E3FD2 /* JoylaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9C0D03272D1F9A009E3FD2 /* JoylaUITests.swift */,
+			);
+			path = JoylaUITests;
+			sourceTree = "<group>";
+		};
+		CE9C0D0C272D1F9A009E3FD2 /* JoylaUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9C0D0D272D1F9A009E3FD2 /* JoylaUIUITests.swift */,
+				CE9C0D0F272D1F9A009E3FD2 /* JoylaUIUITestsLaunchTests.swift */,
+			);
+			path = JoylaUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9C0CEE272D1F97009E3FD2 /* JoylaUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9C0D13272D1F9A009E3FD2 /* Build configuration list for PBXNativeTarget "JoylaUI" */;
+			buildPhases = (
+				CE9C0CEB272D1F97009E3FD2 /* Sources */,
+				CE9C0CEC272D1F97009E3FD2 /* Frameworks */,
+				CE9C0CED272D1F97009E3FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JoylaUI;
+			productName = JoylaUI;
+			productReference = CE9C0CEF272D1F97009E3FD2 /* JoylaUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE9C0CFE272D1F9A009E3FD2 /* JoylaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9C0D16272D1F9A009E3FD2 /* Build configuration list for PBXNativeTarget "JoylaUITests" */;
+			buildPhases = (
+				CE9C0CFB272D1F9A009E3FD2 /* Sources */,
+				CE9C0CFC272D1F9A009E3FD2 /* Frameworks */,
+				CE9C0CFD272D1F9A009E3FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9C0D01272D1F9A009E3FD2 /* PBXTargetDependency */,
+			);
+			name = JoylaUITests;
+			productName = JoylaUITests;
+			productReference = CE9C0CFF272D1F9A009E3FD2 /* JoylaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE9C0D08272D1F9A009E3FD2 /* JoylaUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9C0D19272D1F9A009E3FD2 /* Build configuration list for PBXNativeTarget "JoylaUIUITests" */;
+			buildPhases = (
+				CE9C0D05272D1F9A009E3FD2 /* Sources */,
+				CE9C0D06272D1F9A009E3FD2 /* Frameworks */,
+				CE9C0D07272D1F9A009E3FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9C0D0B272D1F9A009E3FD2 /* PBXTargetDependency */,
+			);
+			name = JoylaUIUITests;
+			productName = JoylaUIUITests;
+			productReference = CE9C0D09272D1F9A009E3FD2 /* JoylaUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9C0CE7272D1F97009E3FD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CE9C0CEE272D1F97009E3FD2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					CE9C0CFE272D1F9A009E3FD2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CE9C0CEE272D1F97009E3FD2;
+					};
+					CE9C0D08272D1F9A009E3FD2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CE9C0CEE272D1F97009E3FD2;
+					};
+				};
+			};
+			buildConfigurationList = CE9C0CEA272D1F97009E3FD2 /* Build configuration list for PBXProject "JoylaUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE9C0CE6272D1F97009E3FD2;
+			productRefGroup = CE9C0CF0272D1F97009E3FD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9C0CEE272D1F97009E3FD2 /* JoylaUI */,
+				CE9C0CFE272D1F9A009E3FD2 /* JoylaUITests */,
+				CE9C0D08272D1F9A009E3FD2 /* JoylaUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9C0CED272D1F97009E3FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9C0CFA272D1F99009E3FD2 /* Preview Assets.xcassets in Resources */,
+				CE9C0CF7272D1F99009E3FD2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9C0CFD272D1F9A009E3FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9C0D07272D1F9A009E3FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9C0CEB272D1F97009E3FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9C0CF5272D1F97009E3FD2 /* ContentView.swift in Sources */,
+				CE9C0CF3272D1F97009E3FD2 /* JoylaUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9C0CFB272D1F9A009E3FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9C0D04272D1F9A009E3FD2 /* JoylaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9C0D05272D1F9A009E3FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9C0D10272D1F9A009E3FD2 /* JoylaUIUITestsLaunchTests.swift in Sources */,
+				CE9C0D0E272D1F9A009E3FD2 /* JoylaUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE9C0D01272D1F9A009E3FD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9C0CEE272D1F97009E3FD2 /* JoylaUI */;
+			targetProxy = CE9C0D00272D1F9A009E3FD2 /* PBXContainerItemProxy */;
+		};
+		CE9C0D0B272D1F9A009E3FD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9C0CEE272D1F97009E3FD2 /* JoylaUI */;
+			targetProxy = CE9C0D0A272D1F9A009E3FD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE9C0D11272D1F9A009E3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE9C0D12272D1F9A009E3FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE9C0D14272D1F9A009E3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JoylaUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Firdavs.JoylaUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE9C0D15272D1F9A009E3FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JoylaUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Firdavs.JoylaUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE9C0D17272D1F9A009E3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Firdavs.JoylaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoylaUI.app/JoylaUI";
+			};
+			name = Debug;
+		};
+		CE9C0D18272D1F9A009E3FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Firdavs.JoylaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoylaUI.app/JoylaUI";
+			};
+			name = Release;
+		};
+		CE9C0D1A272D1F9A009E3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Firdavs.JoylaUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JoylaUI;
+			};
+			name = Debug;
+		};
+		CE9C0D1B272D1F9A009E3FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Firdavs.JoylaUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JoylaUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9C0CEA272D1F97009E3FD2 /* Build configuration list for PBXProject "JoylaUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9C0D11272D1F9A009E3FD2 /* Debug */,
+				CE9C0D12272D1F9A009E3FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9C0D13272D1F9A009E3FD2 /* Build configuration list for PBXNativeTarget "JoylaUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9C0D14272D1F9A009E3FD2 /* Debug */,
+				CE9C0D15272D1F9A009E3FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9C0D16272D1F9A009E3FD2 /* Build configuration list for PBXNativeTarget "JoylaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9C0D17272D1F9A009E3FD2 /* Debug */,
+				CE9C0D18272D1F9A009E3FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9C0D19272D1F9A009E3FD2 /* Build configuration list for PBXNativeTarget "JoylaUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9C0D1A272D1F9A009E3FD2 /* Debug */,
+				CE9C0D1B272D1F9A009E3FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE9C0CE7272D1F97009E3FD2 /* Project object */;
+}
