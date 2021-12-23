@@ -12,6 +12,7 @@ struct JoylaUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+               
         }
     }
 }

@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		014E0439ED774B4B33DEB6F1 /* Pods_JoylaUI_JoylaUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB3CFCC925E62C90E7192C6 /* Pods_JoylaUI_JoylaUIUITests.framework */; };
+		1FFFB0FAE33F2D5D0CF1996A /* Pods_JoylaUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3C8FA2B26E613D3ABC9138 /* Pods_JoylaUI.framework */; };
+		76188BE0FDC7CEC81DE806FA /* Pods_JoylaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052D266C09B79121DF9FDC1F /* Pods_JoylaUITests.framework */; };
+		880BAD65274B712A00AD00C8 /* ProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880BAD64274B712A00AD00C8 /* ProfileData.swift */; };
+		88379FE5274E05A300FFD713 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88379FE4274E05A300FFD713 /* ProfileModel.swift */; };
+		88379FE8274E19C500FFD713 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88379FE7274E19C500FFD713 /* ProfileViewModel.swift */; };
+		883F2C2B2737086A004088CB /* Mapkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F2C2A2737086A004088CB /* Mapkit.swift */; };
+		88554B50273CEA4F00EDA239 /* MoreLikeThis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88554B4F273CEA4F00EDA239 /* MoreLikeThis.swift */; };
+		88554B54273CF7A700EDA239 /* MoreLikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88554B53273CF7A700EDA239 /* MoreLikeModel.swift */; };
+		887E50DB27326365003A14B8 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E50DA27326365003A14B8 /* ProductViewModel.swift */; };
+		88ADB4FB2731319900143C9F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADB4FA2731319900143C9F /* DetailView.swift */; };
+		88ADB4FF2731942700143C9F /* AFhttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ADB4FE2731942700143C9F /* AFhttp.swift */; };
+		88AF9EF12733BAA50071B849 /* PageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF9EF02733BAA50071B849 /* PageDataModel.swift */; };
+		88AF9EFA2733BF870071B849 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF9EF92733BF870071B849 /* DetailViewModel.swift */; };
+		CE3BDB5927302C7A0010B981 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BDB5827302C7A0010B981 /* model.swift */; };
+		CE81F782272FAF1600F3BF40 /* Array+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81F781272FAF1600F3BF40 /* Array+extension.swift */; };
 		CE9C0CF3272D1F97009E3FD2 /* JoylaUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C0CF2272D1F97009E3FD2 /* JoylaUIApp.swift */; };
 		CE9C0CF5272D1F97009E3FD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C0CF4272D1F97009E3FD2 /* ContentView.swift */; };
 		CE9C0CF7272D1F99009E3FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9C0CF6272D1F99009E3FD2 /* Assets.xcassets */; };
@@ -34,6 +50,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		052D266C09B79121DF9FDC1F /* Pods_JoylaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JoylaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3C8FA2B26E613D3ABC9138 /* Pods_JoylaUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JoylaUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2765750213DF1E7838A13F48 /* Pods-JoylaUI-JoylaUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JoylaUI-JoylaUIUITests.release.xcconfig"; path = "Target Support Files/Pods-JoylaUI-JoylaUIUITests/Pods-JoylaUI-JoylaUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3BD906A3EEE3CD7B5DCE733C /* Pods-JoylaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JoylaUITests.release.xcconfig"; path = "Target Support Files/Pods-JoylaUITests/Pods-JoylaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63494E2EF7285C4504BEF62B /* Pods-JoylaUI-JoylaUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JoylaUI-JoylaUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-JoylaUI-JoylaUIUITests/Pods-JoylaUI-JoylaUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		880BAD64274B712A00AD00C8 /* ProfileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileData.swift; sourceTree = "<group>"; };
+		88379FE4274E05A300FFD713 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		88379FE7274E19C500FFD713 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		883F2C2A2737086A004088CB /* Mapkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapkit.swift; sourceTree = "<group>"; };
+		88554B4F273CEA4F00EDA239 /* MoreLikeThis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreLikeThis.swift; sourceTree = "<group>"; };
+		88554B53273CF7A700EDA239 /* MoreLikeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreLikeModel.swift; sourceTree = "<group>"; };
+		887E50DA27326365003A14B8 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		88ADB4FA2731319900143C9F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		88ADB4FE2731942700143C9F /* AFhttp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFhttp.swift; sourceTree = "<group>"; };
+		88ADB5002731AC2B00143C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		88AF9EF02733BAA50071B849 /* PageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDataModel.swift; sourceTree = "<group>"; };
+		88AF9EF92733BF870071B849 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		8DACFD9C32CA5CC6DD185302 /* Pods-JoylaUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JoylaUI.debug.xcconfig"; path = "Target Support Files/Pods-JoylaUI/Pods-JoylaUI.debug.xcconfig"; sourceTree = "<group>"; };
+		92F8AE53293CB030B74F8CE8 /* Pods-JoylaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JoylaUITests.debug.xcconfig"; path = "Target Support Files/Pods-JoylaUITests/Pods-JoylaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D16F649A0FC164EAFC2F4B3 /* Pods-JoylaUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JoylaUI.release.xcconfig"; path = "Target Support Files/Pods-JoylaUI/Pods-JoylaUI.release.xcconfig"; sourceTree = "<group>"; };
+		CE3BDB5827302C7A0010B981 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		CE81F781272FAF1600F3BF40 /* Array+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+extension.swift"; sourceTree = "<group>"; };
 		CE9C0CEF272D1F97009E3FD2 /* JoylaUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoylaUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9C0CF2272D1F97009E3FD2 /* JoylaUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoylaUIApp.swift; sourceTree = "<group>"; };
 		CE9C0CF4272D1F97009E3FD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +82,7 @@
 		CE9C0D09272D1F9A009E3FD2 /* JoylaUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoylaUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9C0D0D272D1F9A009E3FD2 /* JoylaUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoylaUIUITests.swift; sourceTree = "<group>"; };
 		CE9C0D0F272D1F9A009E3FD2 /* JoylaUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoylaUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBB3CFCC925E62C90E7192C6 /* Pods_JoylaUI_JoylaUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JoylaUI_JoylaUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FFFB0FAE33F2D5D0CF1996A /* Pods_JoylaUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76188BE0FDC7CEC81DE806FA /* Pods_JoylaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +106,117 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				014E0439ED774B4B33DEB6F1 /* Pods_JoylaUI_JoylaUIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33334C4C4C5264C14EB1D300 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DACFD9C32CA5CC6DD185302 /* Pods-JoylaUI.debug.xcconfig */,
+				9D16F649A0FC164EAFC2F4B3 /* Pods-JoylaUI.release.xcconfig */,
+				63494E2EF7285C4504BEF62B /* Pods-JoylaUI-JoylaUIUITests.debug.xcconfig */,
+				2765750213DF1E7838A13F48 /* Pods-JoylaUI-JoylaUIUITests.release.xcconfig */,
+				92F8AE53293CB030B74F8CE8 /* Pods-JoylaUITests.debug.xcconfig */,
+				3BD906A3EEE3CD7B5DCE733C /* Pods-JoylaUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		883F2C2727370829004088CB /* Karta */ = {
+			isa = PBXGroup;
+			children = (
+				883F2C2A2737086A004088CB /* Mapkit.swift */,
+			);
+			path = Karta;
+			sourceTree = "<group>";
+		};
+		88ADB5012731AD4600143C9F /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				887E50DA27326365003A14B8 /* ProductViewModel.swift */,
+				88AF9EF92733BF870071B849 /* DetailViewModel.swift */,
+				88379FE7274E19C500FFD713 /* ProfileViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		88AF9EF22733BDD30071B849 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				88AF9EFB2733C5C80071B849 /* Views */,
+				88ADB5012731AD4600143C9F /* View Models */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		88AF9EF32733BEDD0071B849 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				88AF9EF22733BDD30071B849 /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		88AF9EFB2733C5C80071B849 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88AF9EFC2733C5DE0071B849 /* Subviews */,
+				CE9C0CF4272D1F97009E3FD2 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		88AF9EFC2733C5DE0071B849 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				88ADB4FA2731319900143C9F /* DetailView.swift */,
+				88554B4F273CEA4F00EDA239 /* MoreLikeThis.swift */,
+				880BAD64274B712A00AD00C8 /* ProfileData.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		C3C845B1178E2283FDE2274D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C3C8FA2B26E613D3ABC9138 /* Pods_JoylaUI.framework */,
+				DBB3CFCC925E62C90E7192C6 /* Pods_JoylaUI_JoylaUIUITests.framework */,
+				052D266C09B79121DF9FDC1F /* Pods_JoylaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3BDB5427302A410010B981 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				88ADB4FE2731942700143C9F /* AFhttp.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		CE3BDB5727302C240010B981 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BDB5827302C7A0010B981 /* model.swift */,
+				88AF9EF02733BAA50071B849 /* PageDataModel.swift */,
+				88554B53273CF7A700EDA239 /* MoreLikeModel.swift */,
+				88379FE4274E05A300FFD713 /* ProfileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE81F780272FAEF500F3BF40 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE81F781272FAF1600F3BF40 /* Array+extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		CE9C0CE6272D1F97009E3FD2 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +224,8 @@
 				CE9C0D02272D1F9A009E3FD2 /* JoylaUITests */,
 				CE9C0D0C272D1F9A009E3FD2 /* JoylaUIUITests */,
 				CE9C0CF0272D1F97009E3FD2 /* Products */,
+				33334C4C4C5264C14EB1D300 /* Pods */,
+				C3C845B1178E2283FDE2274D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +242,14 @@
 		CE9C0CF1272D1F97009E3FD2 /* JoylaUI */ = {
 			isa = PBXGroup;
 			children = (
+				883F2C2727370829004088CB /* Karta */,
+				88AF9EF32733BEDD0071B849 /* Screens */,
+				CE3BDB5727302C240010B981 /* Model */,
+				CE3BDB5427302A410010B981 /* NetWork */,
+				CE81F780272FAEF500F3BF40 /* Extension */,
 				CE9C0CF2272D1F97009E3FD2 /* JoylaUIApp.swift */,
-				CE9C0CF4272D1F97009E3FD2 /* ContentView.swift */,
 				CE9C0CF6272D1F99009E3FD2 /* Assets.xcassets */,
+				88ADB5002731AC2B00143C9F /* Info.plist */,
 				CE9C0CF8272D1F99009E3FD2 /* Preview Content */,
 			);
 			path = JoylaUI;
@@ -134,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE9C0D13272D1F9A009E3FD2 /* Build configuration list for PBXNativeTarget "JoylaUI" */;
 			buildPhases = (
+				F7EBA9BAA0CEF10BBED62285 /* [CP] Check Pods Manifest.lock */,
 				CE9C0CEB272D1F97009E3FD2 /* Sources */,
 				CE9C0CEC272D1F97009E3FD2 /* Frameworks */,
 				CE9C0CED272D1F97009E3FD2 /* Resources */,
+				AFB33DF919821310B12972DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +306,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE9C0D16272D1F9A009E3FD2 /* Build configuration list for PBXNativeTarget "JoylaUITests" */;
 			buildPhases = (
+				796696D2782416E94EEFE120 /* [CP] Check Pods Manifest.lock */,
 				CE9C0CFB272D1F9A009E3FD2 /* Sources */,
 				CE9C0CFC272D1F9A009E3FD2 /* Frameworks */,
 				CE9C0CFD272D1F9A009E3FD2 /* Resources */,
@@ -169,9 +325,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE9C0D19272D1F9A009E3FD2 /* Build configuration list for PBXNativeTarget "JoylaUIUITests" */;
 			buildPhases = (
+				D5F8A7E304AA9F6741DC31D9 /* [CP] Check Pods Manifest.lock */,
 				CE9C0D05272D1F9A009E3FD2 /* Sources */,
 				CE9C0D06272D1F9A009E3FD2 /* Frameworks */,
 				CE9C0D07272D1F9A009E3FD2 /* Resources */,
+				9A41C05018E2D91848C0F70A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,12 +410,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		796696D2782416E94EEFE120 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JoylaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A41C05018E2D91848C0F70A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JoylaUI-JoylaUIUITests/Pods-JoylaUI-JoylaUIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JoylaUI-JoylaUIUITests/Pods-JoylaUI-JoylaUIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JoylaUI-JoylaUIUITests/Pods-JoylaUI-JoylaUIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFB33DF919821310B12972DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JoylaUI/Pods-JoylaUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JoylaUI/Pods-JoylaUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JoylaUI/Pods-JoylaUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F8A7E304AA9F6741DC31D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JoylaUI-JoylaUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7EBA9BAA0CEF10BBED62285 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JoylaUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE9C0CEB272D1F97009E3FD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88554B50273CEA4F00EDA239 /* MoreLikeThis.swift in Sources */,
+				CE3BDB5927302C7A0010B981 /* model.swift in Sources */,
+				88ADB4FB2731319900143C9F /* DetailView.swift in Sources */,
+				CE81F782272FAF1600F3BF40 /* Array+extension.swift in Sources */,
+				883F2C2B2737086A004088CB /* Mapkit.swift in Sources */,
+				880BAD65274B712A00AD00C8 /* ProfileData.swift in Sources */,
 				CE9C0CF5272D1F97009E3FD2 /* ContentView.swift in Sources */,
+				88379FE5274E05A300FFD713 /* ProfileModel.swift in Sources */,
+				88AF9EFA2733BF870071B849 /* DetailViewModel.swift in Sources */,
+				88ADB4FF2731942700143C9F /* AFhttp.swift in Sources */,
+				887E50DB27326365003A14B8 /* ProductViewModel.swift in Sources */,
+				88379FE8274E19C500FFD713 /* ProfileViewModel.swift in Sources */,
+				88554B54273CF7A700EDA239 /* MoreLikeModel.swift in Sources */,
+				88AF9EF12733BAA50071B849 /* PageDataModel.swift in Sources */,
 				CE9C0CF3272D1F97009E3FD2 /* JoylaUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +687,7 @@
 		};
 		CE9C0D14272D1F9A009E3FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DACFD9C32CA5CC6DD185302 /* Pods-JoylaUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -421,6 +696,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"JoylaUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JoylaUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JoylaUI;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -441,6 +718,7 @@
 		};
 		CE9C0D15272D1F9A009E3FD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D16F649A0FC164EAFC2F4B3 /* Pods-JoylaUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,6 +727,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"JoylaUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JoylaUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JoylaUI;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -469,6 +749,7 @@
 		};
 		CE9C0D17272D1F9A009E3FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F8AE53293CB030B74F8CE8 /* Pods-JoylaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +774,7 @@
 		};
 		CE9C0D18272D1F9A009E3FD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD906A3EEE3CD7B5DCE733C /* Pods-JoylaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +799,7 @@
 		};
 		CE9C0D1A272D1F9A009E3FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63494E2EF7285C4504BEF62B /* Pods-JoylaUI-JoylaUIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +822,7 @@
 		};
 		CE9C0D1B272D1F9A009E3FD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2765750213DF1E7838A13F48 /* Pods-JoylaUI-JoylaUIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
