@@ -1,0 +1,6 @@
+framework module Pods_JoylaUI {
+  umbrella header "Pods-JoylaUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
